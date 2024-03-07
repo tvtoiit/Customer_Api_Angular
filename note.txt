@@ -1,0 +1,11 @@
+curl -X POST -d "userid=nguyenva&password=nđsguyenva" http://localhost/Customer_ST_Angular/api/login/handleLogin.php
+
+
+
+
+curl -X DELETE -d '{"customerIds":[1,2,3]}' http://localhost/Customer_ST_Angular/api/search/handleDeleteCustomer.php
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Dao Ba Chádasdasduong","sex":"Mđâsdasdle"}' http://localhost/Customer_ST_Angular/api/search/handleSearchCustomer.php
+
+
